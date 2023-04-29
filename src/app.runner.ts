@@ -55,6 +55,6 @@ const welcome = () => {
 export class AppRunner extends CommandRunner {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   async run(passedParam: string[]): Promise<void> {
-    welcome();
+    //TODO diplay cli version
   }
 }
