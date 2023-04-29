@@ -52,7 +52,7 @@ const welcome = () => {
   description: welcome(),
   // subCommands:
 })
-export class AppRunner extends CommandRunner {
+export class GidRunner extends CommandRunner {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   async run(passedParam: string[]): Promise<void> {
     //TODO diplay cli version
